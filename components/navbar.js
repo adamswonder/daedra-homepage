@@ -28,7 +28,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
       href={href}
       scroll={false}
       p={2}
-      bg={active ? 'grassTeal' : undefined}
+      bg={active ? 'orange.200' : undefined}
       color={active ? '#202023' : inactiveColor}
       target={target}
       {...props}
@@ -74,22 +74,19 @@ const Navbar = props => {
           display={{ base: 'none', md: 'flex' }}
           width={{ base: 'full', md: 'auto' }}
           alignItems="center"
+          justifyContent="center"
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="https://store.craftz.dog/" path={path}>
-            Wallpapers
-          </LinkItem>
-          <LinkItem href="/posts" path={path}>
+          <LinkItem href="" path={path}>
             Posts
           </LinkItem>
-          <LinkItem href="https://uses.craftz.dog/">Uses</LinkItem>
           <LinkItem
             target="_blank"
-            href="https://github.com/craftzdog/craftzdog-homepage"
+            href="https://github.com/adamswonder"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -97,7 +94,7 @@ const Navbar = props => {
             pl={2}
           >
             <IoLogoGithub />
-            Source
+            Collaborate
           </LinkItem>
         </Stack>
 
@@ -113,26 +110,26 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <MenuItem as={MenuLink} href="/">
+                {/* <MenuItem as={MenuLink} href="/">
                   About
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/works">
+                </MenuItem> */}
+                <MenuItem as={MenuLink} href="">
                   Works
                 </MenuItem>
-                <MenuItem as={MenuLink} href="https://store.craftz.dog/">
+                {/* <MenuItem as={MenuLink} href="https://store.craftz.dog/">
                   Wallpapers
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/posts">
+                </MenuItem> */}
+                <MenuItem as={MenuLink} href="">
                   Posts
                 </MenuItem>
-                <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
+                {/* <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
                   Uses
-                </MenuItem>
+                </MenuItem> */}
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/adamswonder"
                 >
-                  View Source
+                  Reach Out
                 </MenuItem>
               </MenuList>
             </Menu>
