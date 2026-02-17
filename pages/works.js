@@ -32,6 +32,11 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
+        <Section>
+          <WorkGridItem id="smalltalk" title="SmallTalk" thumbnail={thumbSmalltalk}>
+            An AI-powered conversation companion built to make communication smooth, natural, and engaging. 
+          </WorkGridItem>
+        </Section>
         <Section delay={0.1}>
           <WorkGridItem
             id="mysalary"
@@ -39,17 +44,6 @@ const Works = () => (
             thumbnail={thumbMySalary}
           >
             A smart, secure platform that allows employees to access a portion of their earned salary before payday. It's instant, easy, and interest-free.
-          </WorkGridItem>
-        </Section>
-        <Section>
-          <WorkGridItem id="smalltalk" title="SmallTalk" thumbnail={thumbSmalltalk}>
-            An AI-powered conversation companion built to make communication smooth, natural, and engaging. 
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
           </WorkGridItem>
         </Section>
       </SimpleGrid>
