@@ -23,18 +23,12 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="smalltalk" title="SmallTalk" thumbnail={thumbSmalltalk}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
-          </WorkGridItem>
-        </Section>
-        <Section>
           <WorkGridItem
             id="tourist-tap"
             title="Tourist Tap"
             thumbnail={thumbTouristtap}
           >
-            Music recommendation app for iOS
+            NFC-powered wallet that lets you tap any contactless debit or credit card on the back of your device and instantly send money to local merchants.
           </WorkGridItem>
         </Section>
 
@@ -44,8 +38,12 @@ const Works = () => (
             title="MySalary"
             thumbnail={thumbMySalary}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            A smart, secure platform that allows employees to access a portion of their earned salary before payday. It's instant, easy, and interest-free.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="smalltalk" title="SmallTalk" thumbnail={thumbSmalltalk}>
+            An AI-powered conversation companion built to make communication smooth, natural, and engaging. 
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>

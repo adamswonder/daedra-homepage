@@ -18,8 +18,9 @@ const Work = () => (
         Inkdrop <Badge>2016-</Badge>
       </Title>
       <P>
-        A Markdown note-taking app with 100+ plugins, cross-platform and
-        encrypted data sync support. The life-time revenue is more than $300k.
+        An AI-powered conversation companion built to make communication smooth, natural, and engaging. 
+        Designed for both voice and text interactions, it adapts to your preferred style, allowing you to connect in the way that feels most comfortable. 
+        Whether you're speaking or typing, SmallTalk delivers intelligent, responsive conversations that feel effortless and intuitive.
       </P>
       <List ml={4} my={4}>
         <ListItem>
