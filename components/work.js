@@ -1,9 +1,16 @@
 import NextLink from 'next/link'
-import { Heading, Box, Image, Link, Badge } from '@chakra-ui/react'
+import { Heading, Box, Image, Link, Badge, useColorModeValue } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 
 export const Title = ({ children }) => (
-  <Box>
+  <Box
+    borderRadius="lg"
+    mb={6}
+    py={2}
+    px={3}
+    bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+    css={{ backdropFilter: 'blur(10px)' }}
+  >
     <Link as={NextLink} href="/works">
       Works
     </Link>
