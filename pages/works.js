@@ -7,7 +7,6 @@ import thumbSmalltalk from '../public/images/works/small_talk_eyecatch.png'
 import thumbTouristtap from '../public/images/works/tourist_tap_eyecatch.png'
 import thumbMySalary from '../public/images/works/my_salary_eyecatch.png'
 import thumbNovatouch from '../public/images/works/novatouch_eyecatch.png'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
 import thumbArc from '../public/images/works/arc_eyecatch.png'
 import thumbEinUI from '../public/images/works/enui_eyecatch.png'
 
@@ -40,7 +39,7 @@ const Works = () => (
             title="MySalary"
             thumbnail={thumbMySalary}
           >
-            A smart, secure platform that allows employees to access a portion of their earned salary before payday. It's instant, easy, and interest-free.
+            A smart, secure platform that allows employees to access a portion of their earned salary before payday. It&apos;s instant, easy, and interest-free.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>

@@ -18,7 +18,7 @@ const Work = () => (
       </Title>
       <P>
         A smart, secure platform that allows employees to access a portion of their earned salary before payday. 
-        It's instant, easy, and interest-free.
+        It&apos;s instant, easy, and interest-free.
       </P>
       <P>
         MySalary bridges the gap between paydays by providing employees with financial flexibility and peace of mind. 

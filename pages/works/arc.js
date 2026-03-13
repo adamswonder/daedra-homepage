@@ -3,8 +3,7 @@ import {
   Badge,
   Link,
   List,
-  ListItem,
-  SimpleGrid
+  ListItem
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -23,7 +22,7 @@ const Work = () => (
         projects, and staying updated with the latest Ruby community developments.
       </P>
       <P>
-        Whether you're a seasoned developer or a beginner, this platform offers tailored resources for 
+        Whether you&apos;re a seasoned developer or a beginner, this platform offers tailored resources for 
         different countries and cities, merchandise, meetup information, and details about online workshops 
         and webinars. The platform serves as a central point for the growing Ruby community across Africa, 
         fostering collaboration and learning opportunities.

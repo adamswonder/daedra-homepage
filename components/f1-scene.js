@@ -1,7 +1,7 @@
 "use client"
 
 import { Canvas } from "@react-three/fiber"
-import { OrbitControls, Environment, Float, ContactShadows } from "@react-three/drei"
+import { OrbitControls, Float, ContactShadows } from "@react-three/drei"
 import { useEffect, useMemo, useRef, useState } from "react"
 import * as THREE from "three"
 import { generateF1Voxels } from "./f1-voxel"

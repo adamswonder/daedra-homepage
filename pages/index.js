@@ -73,7 +73,7 @@ const Home = () => (
           passion for building intuitive digital solutions. He has a knack
           for all things software development, from planning and designing all the
           way to solving real-life problems with code. With expertise in full-stack development,
-          AI/LLM integration, and DevOps, he's built everything from responsive user interfaces
+          AI/LLM integration, and DevOps, he&apos;s built everything from responsive user interfaces
           to AI-powered document intelligence systems. Currently, he works at{' '}
           <Link
             href="https://craftsilicon.com"

@@ -20,7 +20,7 @@ const Work = () => (
       <P>
         An AI-powered conversation companion built to make communication smooth, natural, and engaging. 
         Designed for both voice and text interactions, it adapts to your preferred style, allowing you to connect in the way that feels most comfortable. 
-        Whether you're speaking or typing, SmallTalk delivers intelligent, responsive conversations that feel effortless and intuitive.
+        Whether you&apos;re speaking or typing, SmallTalk delivers intelligent, responsive conversations that feel effortless and intuitive.
       </P>
       <List ml={4} my={4}>
         <ListItem>
