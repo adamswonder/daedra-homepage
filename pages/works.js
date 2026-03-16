@@ -63,17 +63,17 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="arc" thumbnail={thumbArc} title="African Ruby Community">
-            A platform for Ruby language enthusiasts in Africa, facilitating connection, knowledge sharing, and collaboration across the continent.
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
           <WorkGridItem
             id="einui"
             thumbnail={thumbEinUI}
             title="Ein UI"
           >
             Beautiful liquid glass UI components with frosted-glass aesthetic built on Tailwind CSS and modern React primitives.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="arc" thumbnail={thumbArc} title="African Ruby Community">
+            A platform for Ruby language enthusiasts in Africa, facilitating connection, knowledge sharing, and collaboration across the continent.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
