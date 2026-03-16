@@ -57,7 +57,7 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
+          Open Source
         </Heading>
       </Section>
 

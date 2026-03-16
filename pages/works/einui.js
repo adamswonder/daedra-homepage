@@ -14,7 +14,7 @@ const Work = () => (
   <Layout title="Ein UI">
     <Container>
       <Title>
-        Ein UI <Badge>2024</Badge>
+        Ein UI <Badge>2026</Badge>
       </Title>
       <P>
         A collection of beautiful, ready-made Liquid Glass UI components you can preview, copy, 
