@@ -4,6 +4,7 @@ import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
 import VoxelDogLoader from '../voxel-dog-loader'
+import ChatDrawer from '../chat-panel'
 
 const LazyF1Scene = dynamic(() => import('../voxel-f1'), {
   ssr: false,
@@ -16,7 +17,6 @@ const Main = ({ children, router }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Adams' homepage" />
-        <meta name="author" content="Adams Wonderboy" />
         <meta name="author" content="Adams Wonderboy" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -36,11 +36,11 @@ const Main = ({ children, router }) => {
 
       <Container maxW="container.md" pt={14}>
         <LazyF1Scene />
-
         {children}
-
         <Footer />
       </Container>
+
+      <ChatDrawer />
     </Box>
   )
 }
