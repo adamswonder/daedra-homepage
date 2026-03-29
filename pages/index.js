@@ -14,7 +14,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear, BioContent } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoGithub } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import Image from 'next/image'
 
 const Home = () => (
@@ -169,7 +169,7 @@ const Home = () => (
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoGithub />}
+                leftIcon={<IoLogoLinkedin />}
               >
                 LinkedIn
               </Button>
