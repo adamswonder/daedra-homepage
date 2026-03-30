@@ -78,8 +78,6 @@ export default function ChatDrawer() {
   const userBubbleBg = useColorModeValue('orange.100', 'orange.900')
   const inputBg = useColorModeValue('white', 'whiteAlpha.100')
   const mutedColor = useColorModeValue('gray.500', 'whiteAlpha.500')
-  const pillBg = useColorModeValue('#2C7A7B', '#202023')
-  const pillColor = useColorModeValue('white', 'white')
   const suggestedBorderColor = useColorModeValue('blackAlpha.200', 'whiteAlpha.200')
 
   useEffect(() => {
@@ -133,14 +131,12 @@ export default function ChatDrawer() {
       <Box position="fixed" bottom={6} right={6} zIndex={10}>
         <Button
           onClick={onOpen}
-          bg={pillBg}
-          color={pillColor}
+          colorScheme="teal"
           borderRadius="full"
           px={5}
           py={3}
           h="auto"
           leftIcon={<IoSparkles />}
-          _hover={{ opacity: 0.85 }}
           boxShadow="lg"
           fontSize="sm"
           fontWeight="semibold"
@@ -348,12 +344,10 @@ export default function ChatDrawer() {
                   onClick={handleSend}
                   isLoading={isLoading}
                   isDisabled={!visitor || !input.trim()}
-                  bg={pillBg}
-                  color={pillColor}
+                  colorScheme="teal"
                   size="sm"
                   borderRadius="xl"
                   rightIcon={<IoSend size={12} />}
-                  _hover={{ opacity: 0.85 }}
                   flexShrink={0}
                 >
                   Send
